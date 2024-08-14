@@ -1,4 +1,135 @@
-.venv 
-.pytest_cache
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+*.env
+*.venv/
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+*.db
+*.wim
+*.swm
+*.swn
+*.bki
+*.bki.bkp
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# VS Code
+.vscode/
+
+# Pylint
+pylint.log
+
+# FastAPI related
+*.db  # If you're using SQLite databases locally
+/static/uploads/
+static/uploads/
+
+# Python Bytecode
 *.pyc
-__pycache__
+
+# Test Coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.nox/
+cov.xml
+coverage.xml
+.cache/
+nosetests.xml
+pylint.report
+
+# Local .env files
+.env
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# node.js
+node_modules/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Package files
+*.tgz
+*.zip
+*.tar.gz
+*.whl
+*.egg-info/
+.eggs/
+
+# Migrations
+migrations/
+
+# Azure
+*.azure
+
+# Gunicorn
+gunicorn.log
+gunicorn.error.log
+gunicorn.access.log
